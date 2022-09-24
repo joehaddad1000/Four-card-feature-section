@@ -28,9 +28,28 @@ body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
 }
+
 main {
-  padding: 2rem;
+  padding: 2.625rem;
 }
+
+/*FONTS WEIGHTS*/
+.f200 {
+  font-weight: 200;
+}
+
+.f400 {
+  font-weight: 400;
+}
+
+.f600 {
+  font-weight: 600;
+}
+
+/*-------------------*/
+
+
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
