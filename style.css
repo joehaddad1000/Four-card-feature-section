@@ -46,6 +46,19 @@ main {
   font-weight: 600;
 }
 
+h1 {
+  font-size: 1.65rem;
+  color: var(--Very-Dark-Blue);
+}
+
+.text h1{
+  margin-block: 1.125rem;
+}
+
+.text p{
+  margin-block-end: 2.5rem;
+}
+
 /*-------------------*/
 
 
