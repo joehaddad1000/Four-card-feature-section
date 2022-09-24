@@ -56,9 +56,12 @@ h1 {
 }
 
 .text p{
-  margin-block-end: 2.5rem;
+  margin-block-end: 3rem;
 }
 
+.cards >section {
+  margin-block-end: 2rem;
+}
 /*-------------------*/
 
 
