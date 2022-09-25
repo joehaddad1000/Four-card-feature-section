@@ -65,8 +65,11 @@ p {
   font-size: 1rem;
 }
 
-.container>section {
+.container >div {
   margin-block-end: 2rem;
+}
+.container .card4 {
+    margin-block-end: 0;
 }
 
 .cards {
@@ -98,7 +101,7 @@ p {
   margin-bottom: .25rem;
 }
 
-.cards>div {
+.cards div {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -123,3 +126,27 @@ footer {
 }
 
 /*-------------------*/
+
+@media all and (min-width: 48.75rem) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 8px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div3 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+}
