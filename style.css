@@ -65,11 +65,12 @@ p {
   font-size: 1rem;
 }
 
-.container >div {
+.container>div {
   margin-block-end: 2rem;
 }
+
 .container .card4 {
-    margin-block-end: 0;
+  margin-block-end: 0;
 }
 
 .cards {
