@@ -71,9 +71,9 @@ p {
 
 .cards {
   background-color: #FFFFFF;
-  -webkit-box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.45);
-  box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0 0 3.125rem -0.3125rem rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 0 3.125rem -0.3125rem rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0 3.125rem -0.3125rem rgba(0, 0, 0, 0.45);
   border-radius: .5rem;
   padding: 1.75rem;
 }
