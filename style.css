@@ -26,7 +26,7 @@ body {
   font-size: 0.9375rem;
   background-color: var(--Very-Light-Gray);
   font-family: 'Poppins', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 main {
@@ -51,20 +51,66 @@ h1 {
   color: var(--Very-Dark-Blue);
 }
 
-.text h1{
+p {
+  color: var(--Grayish-Blue);
+}
+
+.text h1 {
   margin-block: 1.125rem;
 }
 
-.text p{
+.text p {
   margin-block-end: 3rem;
+  text-align: center;
+  font-size: 1rem;
 }
 
-.cards >section {
+.container>section {
   margin-block-end: 2rem;
 }
+
+.cards {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.45);
+  border-radius: .5rem;
+  padding: 1.75rem;
+}
+
+.cyanCards {
+  border-top: .3rem var(--Cyan) solid;
+}
+
+.redCards {
+  border-top: .3rem var(--Red) solid;
+}
+
+.orangeCards {
+  border-top: .3rem var(--Orange) solid;
+}
+
+.blueCards {
+  border-top: .3rem var(--Blue) solid;
+}
+
+.cards h2 {
+  margin-bottom: .25rem;
+}
+
+.cards>div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: right;
+  padding-block-start: 2rem;
+}
+
 /*-------------------*/
 
-
+footer {
+  margin-bottom: 2rem;
+}
 
 .attribution {
   font-size: 0.6875rem;
@@ -74,3 +120,5 @@ h1 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/*-------------------*/
